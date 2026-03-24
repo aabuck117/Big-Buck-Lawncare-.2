@@ -568,3 +568,16 @@ input:focus, select:focus, textarea:focus {
         padding: 30px 20px;
     }
 }
+.quote-form-embed {
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.quote-form-embed iframe {
+  display: block;
+  width: 100%;
+  min-height: 650px;
+  border: none;
+}
